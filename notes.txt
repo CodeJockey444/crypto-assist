@@ -1,0 +1,46 @@
+font:
+-------------
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro:wght@600&display=swap');
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+gradient & colors:
+----------------------
+background-color: #f39f86;
+background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+
+neumorphic css:
+--------------------
+white:
+--------
+border-radius: 50px;
+background: #ffffff;
+box-shadow: inset -5px -5px 22px #d9d9d9,
+            inset 5px 5px 22px #ffffff;
+
+black:
+---------
+border-radius: 50px;
+background: #454545;
+box-shadow: inset -5px 5px 22px #3b3b3b,
+            inset 5px -5px 22px #4f4f4f;
+
+
+ICONS:
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css
+<i class="bi bi-cloud-sun-fill"></i>
+<i class="bi bi-cloud-moon-fill"></i>
+<i class="bi bi-github"></i>
+<i class="bi bi-facebook"></i>
+<i class="bi bi-linkedin"></i>
+<i class="bi bi-envelope-open-fill"></i> //mail icon
+
+DESIGNED AND DEVELOPED BY:
+Manjuantha.S
+codejockey444@gmail.com
+
+CONTACT:
+https://www.facebook.com/profile.php?id=100073061585915 - facebook
+https://github.com/CodeJockey444/ - github
+Funny_Programmer#4422 - discord

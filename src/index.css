@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@900&display=swap");
+:root {
+  --unix-font-family: "Noto Sans Display", sans-serif;
+  --normal-font-family: "Poppins", sans-serif;
+  --background-color: #f39f86;
+  --background-image: linear-gradient(315deg, #f38686 0%, #f9d976 74%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0.5em; /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #000; /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px; /* roundness of the scroll thumb */
+  background-color: var(--background-color);
+  background-image: var(--background-image);
+}
+.gradient-bg {
+  background-color: var(--background-color);
+  background-image: var(--background-image);
+}
+.white-neu {
+  background: #ffffff;
+  box-shadow: inset -5px -5px 22px #d9d9d9, inset 5px 5px 22px #ffffff;
+}
+.dark-neu {
+  background: #454545;
+  box-shadow: inset -5px 5px 22px #3b3b3b, inset 5px -5px 22px #4f4f4f;
+}
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+h1 {
+  font-family: var(--unix-font-family);
+  font-size: 4.5vw;
+}
+.title-text {
+  font-family: var(--unix-font-family);
+  font-size: 2.5vw;
+}
+h2,
+.h2,.h3 {
+  color: #3b3b3b;
+  font-family: var(--normal-font-family);
+  font-size: 2.5vw;
+}
+.h3{
+  font-size:1.75vw ;
+}
+.spl-text,
+a:hover {
+  color: transparent;
+  background-color: var(--background-color);
+  background-image: var(--background-image);
+  background-clip: text;
+}
+p,
+a,
+a:hover {
+  font-family: var(--normal-font-family);
+  text-decoration: none;
+}
+button {
+  font-family: var(--normal-font-family);
+  color: #fff;
+}
+i {
+  color: #fff;
+  font-size: 2vw;
+}
+.slide {
+  height: 65vh;
+  width: 100vw;
+}
+.bg-light {
+  background-color: #ffffff;
+}
+.img-fluid {
+  height: 45vh;
+  width: 50vh;
+}
+.card {
+  background: #ffffff;
+  box-shadow: -6px -6px 19px #e0e0e0, 6px 6px 19px #ffffff;
+  border-radius: 1.8vw;
+  border: none;
+}
+.dark-card {
+  background: #2c2b2b;
+  box-shadow: -6px -6px 19px #272626, 6px 6px 19px #313030;
+  border-radius: 1.8vw;
+}
+.logo{
+  height:7vw;
+  width:7vw;
+}
+@media (max-width: 400px) {
+  i {
+    font-size: 5.5vw;
+  }
+  .slide {
+    height: 80vh;
+  }
+  .title-text,
+  h2,
+  .h2 {
+    font-size: 5vw;
+  }
 }
